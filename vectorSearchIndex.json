@@ -1,0 +1,14 @@
+{
+    "name": "vectorIndex",
+    "type": "vectorSearch",
+    "collectionName": "docs",
+    "database": "docsDB",
+    "fields": [
+      {
+        "type": "vector",
+        "path": "embedding",
+        "numDimensions": 384,
+        "similarity": "cosine"
+      }
+    ]
+}
