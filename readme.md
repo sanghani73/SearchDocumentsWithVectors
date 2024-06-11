@@ -1,5 +1,8 @@
 
 # Load and Search Documents - A simple demo
+
+![alt text](./images/DocSearchDemo.jpg)
+
 In this demo we will show how you can build a simple app to search across documents (PDFs, text files, word docs etc) **without** extracting the text, storing it in the database and creating lucene indexes. Instead, we will use embedding models to parse the text and store the vector embeddings in the database (along with the document information) and levarage vector indexes to perform semantic search on the data.
 
 ## Setup
